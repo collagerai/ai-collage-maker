@@ -1,13 +1,13 @@
 ---
 name: photo-collage-maker
-description: AI collage maker and photo mosaic maker - make photo collages and photo mosaics from the user's own photos with Collager.ai - a heart, a number (birthday, anniversary, year), a word, a star or a flower made of photos in seconds, or a photo mosaic (one big picture recreated from hundreds or thousands of small photos). Use when the user asks for a photo collage, heart photo collage, collage in the shape of a number or word, "make a picture out of these photos", photo mosaic, mosaic portrait, memorial or anniversary gift from family photos, or wants to turn many photos into one image. Works through the Collager.ai MCP tools when they are connected, through the Collager.ai REST API when a COLLAGER_API_KEY is set, and otherwise guides the user to collager.ai.
+description: Photo mosaic maker and AI photo collage maker - make photo mosaics and photo collages from the user's own photos with Collager.ai - a heart, a number (birthday, anniversary, year), a word, a star or a flower made of photos in seconds, or a photo mosaic (one big picture recreated from hundreds or thousands of small photos). Use when the user asks for a photo collage, heart photo collage, collage in the shape of a number or word, "make a picture out of these photos", photo mosaic, mosaic portrait, memorial or anniversary gift from family photos, or wants to turn many photos into one image. Works through the Collager.ai MCP tools when they are connected, through the Collager.ai REST API when a COLLAGER_API_KEY is set, and otherwise guides the user to collager.ai.
 license: MIT
 metadata:
   homepage: https://collager.ai/developers/
   version: "0.1.0"
 ---
 
-# AI collage maker & photo mosaic maker (Collager.ai)
+# Photo mosaic & AI photo collage maker (Collager.ai)
 
 Two products, pick by what the user wants:
 

@@ -5,13 +5,13 @@
     "email": "support@collager.ai"
   },
   "metadata": {
-    "description": "Collager.ai plugins: AI collage maker and photo mosaic maker."
+    "description": "Collager.ai plugins: photo mosaic maker and AI photo collage maker."
   },
   "plugins": [
     {
       "name": "ai-collage-maker",
       "source": "./",
-      "description": "AI collage maker: heart photo collage, number and word collages in seconds, and a photo mosaic maker - from your own photos (Collager.ai MCP server + skill).",
+      "description": "Photo mosaic maker and AI photo collage maker: a photo mosaic from hundreds of your photos, or a photo collage in seconds - a heart, a number, a word (Collager.ai MCP server + skill).",
       "version": "0.1.0",
       "category": "productivity",
       "homepage": "https://collager.ai/developers/"

@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.collager/ai-collage-maker",
-  "title": "AI Collage Maker & Photo Mosaic Maker - Collager.ai",
-  "description": "AI collage maker: heart photo collage, number and word collages from your photos in seconds, plus a photo mosaic maker. No sign-in.",
+  "title": "Photo Mosaic & AI Collage Maker - Collager.ai",
+  "description": "Photo mosaic maker and AI photo collage maker: a photo mosaic from hundreds of your photos, or a photo collage in seconds (heart, number, word). No sign-in.",
   "repository": {
     "url": "https://github.com/collagerai/ai-collage-maker",
     "source": "github"

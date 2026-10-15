@@ -1,7 +1,7 @@
 {
   "name": "ai-collage-maker",
   "version": "0.1.0",
-  "description": "AI collage maker and photo mosaic maker by Collager.ai: turn your photos into a heart photo collage, a number or a word collage in seconds, or into a photo mosaic - one picture made of hundreds of your photos. Watermarked preview in the chat, full-resolution file on collager.ai.",
+  "description": "Photo mosaic maker and AI photo collage maker by Collager.ai: turn your photos into a photo mosaic - one picture made of hundreds of your photos - or into a photo collage in seconds (a heart, a number, a word). Watermarked preview in the chat, full-resolution file on collager.ai.",
   "author": {
     "name": "Collager.ai",
     "email": "support@collager.ai",
@@ -10,5 +10,5 @@
   "homepage": "https://collager.ai/developers/",
   "repository": "https://github.com/collagerai/ai-collage-maker",
   "license": "MIT",
-  "keywords": ["ai collage maker", "photo mosaic maker", "heart photo collage", "photo collage maker", "ai photo collage", "photo mosaic", "collage maker", "mosaic maker", "photo gift", "anniversary", "memorial"]
+  "keywords": ["photo mosaic maker", "photo mosaic", "ai collage maker", "photo collage maker", "photo collage", "ai photo collage", "mosaic maker", "collage maker", "photo gift", "anniversary", "memorial"]
 }

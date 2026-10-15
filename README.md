@@ -1,11 +1,11 @@
-# AI Collage Maker & Photo Mosaic Maker - Collager.ai
+# Photo Mosaic & AI Collage Maker - Collager.ai
 
-An AI collage maker for Claude, ChatGPT and any MCP-capable agent. Turn your own photos into:
+A photo mosaic maker and AI photo collage maker for Claude, ChatGPT and any MCP-capable agent. Turn your own photos into:
 
-- **a shape collage in seconds** - a heart, a number (birthday, anniversary, year), a word, "I love you", a star or a
-  flower made of photos;
 - **a photo mosaic** - one picture (a portrait, a couple, a pet) recreated from hundreds or thousands of your small
-  photos. Zoom in and every tile is a real photo.
+  photos. Zoom in and every tile is a real photo;
+- **a photo collage in seconds** - a heart, a number (birthday, anniversary, year), a word, "I love you", a star or a
+  flower made of photos.
 
 Website: **https://collager.ai/** · for developers and AI agents: **https://collager.ai/developers/**
 
