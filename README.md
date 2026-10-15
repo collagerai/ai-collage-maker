@@ -1,6 +1,6 @@
-# Collager.ai - AI Photo Collage & Mosaic Maker
+# AI Collage Maker & Photo Mosaic Maker - Collager.ai
 
-Turn your own photos into:
+An AI collage maker for Claude, ChatGPT and any MCP-capable agent. Turn your own photos into:
 
 - **a shape collage in seconds** - a heart, a number (birthday, anniversary, year), a word, "I love you", a star or a
   flower made of photos;
@@ -22,13 +22,13 @@ Website: **https://collager.ai/** · for developers and AI agents: **https://col
 **Claude Code**
 
 ```
-/plugin marketplace add collagerai/collager-mosaic-plugin
-/plugin install collager-mosaic@collager-ai
+/plugin marketplace add collagerai/ai-collage-maker
+/plugin install ai-collage-maker@collager-ai
 ```
 
 or only the MCP server: `claude mcp add --transport http collager-ai https://collager.ai/mcp`
 
-**Any agent that reads Agent Skills** (Codex CLI, Gemini CLI, VS Code, ...): `npx skills add collagerai/collager-mosaic-plugin`
+**Any agent that reads Agent Skills** (Codex CLI, Gemini CLI, VS Code, ...): `npx skills add collagerai/ai-collage-maker`
 
 **ChatGPT / Claude.ai**: add the connector `https://collager.ai/mcp` (no authentication).
 
