@@ -1,0 +1,20 @@
+{
+  "name": "collager-ai",
+  "owner": {
+    "name": "Collager.ai",
+    "email": "support@collager.ai"
+  },
+  "metadata": {
+    "description": "Collager.ai plugins: AI photo collage and photo mosaic maker."
+  },
+  "plugins": [
+    {
+      "name": "collager-mosaic",
+      "source": "./",
+      "description": "Heart / number / word photo collages in seconds and photo mosaics from your own photos (Collager.ai MCP server + skill).",
+      "version": "0.1.0",
+      "category": "productivity",
+      "homepage": "https://collager.ai/developers/"
+    }
+  ]
+}

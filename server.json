@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.collager/photo-collage",
+  "title": "Collager.ai - AI Photo Collage & Mosaic Maker",
+  "description": "Heart, number and word photo collages from your photos in seconds, and photo mosaics. No sign-in.",
+  "repository": {
+    "url": "https://github.com/collagerai/collager-mosaic-plugin",
+    "source": "github"
+  },
+  "websiteUrl": "https://collager.ai/developers/",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://collager.ai/mcp"
+    }
+  ]
+}
