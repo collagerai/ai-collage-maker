@@ -1,6 +1,6 @@
 ---
 name: photo-collage-maker
-description: Photo mosaic maker and AI photo collage maker - make photo mosaics and photo collages from the user's own photos with Collager.ai - a heart, a number (birthday, anniversary, year), a word, a star or a flower made of photos in seconds, or a photo mosaic (one big picture recreated from hundreds or thousands of small photos). Use when the user asks for a photo collage, heart photo collage, collage in the shape of a number or word, "make a picture out of these photos", photo mosaic, mosaic portrait, memorial or anniversary gift from family photos, or wants to turn many photos into one image. Works through the Collager.ai MCP tools when they are connected, through the Collager.ai REST API when a COLLAGER_API_KEY is set, and otherwise guides the user to collager.ai.
+description: Photo mosaic maker and AI photo collage maker - make photo mosaics and photo collages from the user's own photos with Collager.ai - a heart, a number (birthday, anniversary, year), a word, a star or a flower made of photos in seconds, or a photo mosaic (one big picture recreated from hundreds or thousands of small photos). Use when the user asks for a photo collage, heart photo collage, collage in the shape of a number or word, "make a picture out of these photos", photo mosaic, mosaic portrait, memorial or anniversary gift from family photos, or wants to turn many photos into one image. Works through the Collager.ai MCP tools (no sign-in, no key); otherwise guides the user to collager.ai. For developers it points to the Collager.ai REST API documentation.
 license: MIT
 metadata:
   homepage: https://collager.ai/developers/
@@ -34,10 +34,13 @@ Tools of the `collager-ai` server: `make_shape_collage`, `get_shape_collage`, `l
 2. **Photo mosaic:** call `list_mosaic_styles` if the user wants to choose a look, then `start_photo_mosaic` and give
    the link with its steps. The mosaic is built on collager.ai from the photos the user uploads there.
 
-## Route 2 - REST API with a key (`COLLAGER_API_KEY`)
+## Route 2 - a developer integrating Collager.ai into their own product
 
-Base URL `https://api.collager.ai/v1` (also `https://collager.ai/v1`), header `Authorization: Bearer $COLLAGER_API_KEY`.
-Full contract: https://collager.ai/developers/openapi.yaml. Details and examples: [references/api.md](references/api.md).
+Only when the user is writing their own code (a print shop, a photo app, an agent). Do not look for API keys on the
+user's machine and do not ask them to paste a key into the chat: the developer puts their own key into their own code.
+Base URL `https://api.collager.ai/v1` (also `https://collager.ai/v1`), header `Authorization: Bearer <YOUR_API_KEY>`,
+keys at https://collager.ai/developers/#request. Full contract: https://collager.ai/developers/openapi.yaml.
+Details and examples: [references/api.md](references/api.md).
 
 - Shape collage: `POST /v1/collages` with `{"shape": {...}, "photo_urls": [...]}` and `Prefer: wait=25` -> usually
   `preview_ready` in the answer; `POST /v1/collages/{id}/unlock` -> `hd_url` (live keys).

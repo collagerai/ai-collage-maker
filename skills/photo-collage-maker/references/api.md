@@ -8,7 +8,7 @@ https://collager.ai/developers/openapi.yaml
 
 ```bash
 curl -s https://api.collager.ai/v1/collages \
-  -H "Authorization: Bearer $COLLAGER_API_KEY" -H "Content-Type: application/json" -H "Prefer: wait=25" \
+  -H "Authorization: Bearer <YOUR_API_KEY>" -H "Content-Type: application/json" -H "Prefer: wait=25" \
   -d '{"shape": {"type": "number", "text": "30"},
        "photo_urls": ["https://example.com/1.jpg", "https://example.com/2.jpg"]}'
 ```
@@ -22,6 +22,7 @@ Options: `gap_pct` (0-40, default 6), `size_px` (600-8000, default 3000), `backg
 
 ```python
 import requests, time
+KEY = "<YOUR_API_KEY>"                              # your own key from collager.ai/developers - keep it in your config
 H = {"Authorization": "Bearer " + KEY, "Idempotency-Key": "order-1042"}
 job = requests.post("https://api.collager.ai/v1/mosaics", headers=H, json={
     "main_image_url": "https://example.com/portrait.jpg",
