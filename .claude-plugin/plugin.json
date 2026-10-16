@@ -2,7 +2,7 @@
   "name": "ai-collage-maker",
   "displayName": "Photo Mosaic & Photo Collage Maker",
   "version": "0.1.0",
-  "description": "Photo mosaic maker and AI photo collage maker by Collager.ai: turn your photos into a photo mosaic - one picture made of hundreds of your photos - or into a photo collage in seconds (a heart, a number, a word). Watermarked preview in the chat, full-resolution file on collager.ai.",
+  "description": "Photo mosaic and photo collage maker by Collager.ai: turn your own photos into a photo mosaic - one picture made of hundreds of your photos - or into a photo collage in seconds (a heart, a number, a word). Arranges your photos, does not generate images with AI. Watermarked preview in the chat, full-resolution file on collager.ai.",
   "author": {
     "name": "Collager.ai",
     "email": "support@collager.ai",
